@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, #root {
+  height: 100%;
+}
+
+.monaco-editor .overflow-guard {
+  border-radius: 0.25rem;
+}
